@@ -1,0 +1,17 @@
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardBusinessEntities.deps.json
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardBusinessEntities.runtimeconfig.json
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardBusinessEntities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardBusinessEntities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardUtilities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\bin\Release\net6.0\FeedForwardUtilities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.csproj.AssemblyReference.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.AssemblyInfoInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.AssemblyInfo.cs
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.csproj.CopyComplete
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\refint\FeedForwardBusinessEntities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\FeedForwardBusinessEntities.genruntimeconfig.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardBusinessEntities\obj\Release\net6.0\ref\FeedForwardBusinessEntities.dll

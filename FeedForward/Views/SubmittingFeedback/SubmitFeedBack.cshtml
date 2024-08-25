@@ -1,0 +1,64 @@
+﻿@model FeedForwardBusinessEntities.EntityModels.SubmittingFeedbackViewModel
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SubmitFeedBack</title>
+</head>
+<body>
+    <div class="form-group">
+        
+     @using(Html.BeginForm())
+     {
+         @if(Model.Question!=null)
+          {
+               <tbody>
+                   <tr>
+                       <td>
+                           @Html.DisplayFor(m=>m.QID)
+                       </td>
+                       <td>
+                           @Html.DisplayFor(m=>m.Question)
+                       </td>
+                   </tr>
+               </tbody>
+          }
+
+
+            <br/>
+            @if (Model.Question != null)
+            {
+                @for (var i = 0; i < Model.fedcap.Count; i++)
+                {
+                    <input asp-for=FCID value="@Model.fedcap[i].FCID" type="radio" />
+                    <label asp-for="@Model.fedcap[i].FCID">@Model.fedcap[i].FCDescription </label>
+                    <input asp-for="@Model.fedcap[i].FCID" type="hidden" />
+
+                    <br />
+                }
+
+                <br/>
+                <input type="submit" name="btn" value="Next" id="next" />
+            }
+       <br/>
+       @if (ViewBag.Finish==true)
+       {
+           <input type="submit"  name="btn" value="Button" id="Next" hidden/>  
+       }
+            @ViewBag.Info
+               
+     }
+   
+    
+    </div>
+    
+    <br/>
+    @Html.Partial("_MyPartialView")
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@model FeedForwardBusinessEntities.EntityModels.UserLoginViewModel
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserLogin</title>
+    @*<script>
+        function f1()
+        {
+            alert("Welcome to Js");
+            return false;
+        }
+    </script>*@
+</head>
+<body>
+    @using(Html.BeginForm())
+    {
+        <p>UserID</p>
+        @Html.TextBoxFor(x=>x.UserID)
+        <p>PassWord</p>
+        @Html.TextBoxFor(x=>x.Password)
+
+        <input type="submit" name="btn" id="Submit1" onclick="return f1();" value="Login">
+
+        <input type="submit" name="btn" id="Submit2"  value="Login Through API">
+        <br/>
+        @Html.ActionLink("Forgot Password","ForgotPassword")
+        <br/>
+        <br/>
+        @ViewBag.Info
+        <br/>
+        @Html.Partial("_MyPartialView")
+    }
+</body>
+
+</html>
+

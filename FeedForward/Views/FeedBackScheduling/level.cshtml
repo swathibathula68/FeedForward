@@ -1,0 +1,140 @@
+﻿@model FeedForwardBusinessEntities.EntityModels.FeedBackSchedulingViewModel
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>level</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            debugger;
+
+            $("#LevelDetail").change(function () {
+
+                $("#DesignationLevel").empty();
+
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetDesignation")',
+                    dataType: 'json',
+                    data: {id: $("#LevelDetail").val() },
+                    success: function (x) {
+                        $.each(x, function (i, y) {
+                            $("#DesignationLevel").append('<option value="' + y.value + '">' +
+                                y.text + '</option>');
+                        });
+                    }
+                });
+                return false;
+            });
+
+
+        })
+    </script>
+</head>
+<body>
+    @using(Html.BeginForm())
+    {
+    <div>
+            <h1><b><center>FeedBack Scheduling:</center></b></h1>
+           
+        <p>Level : @Html.DropDownList("LevelDetail", ViewData["LevelList"] as List<SelectListItem>)</p>
+           
+        <p>Designation : @Html.DropDownList("DesignationLevel", new SelectList(String.Empty, "Value", "Text"), "Please Select Designation", new { style = "width:250px;" })</p>
+            
+
+    </div>
+    <p>FeedBackCategoryLevel:</p>
+   <div>
+            <label asp-for="FCLID" class="control-label"></label>
+            <select asp-for="FCLID" asp-items="@(new SelectList(Model.FeedbackCategory,"FCLID","FCLDescription"))"></select>
+            
+   </div>
+   <br/>
+   <br/>
+        <input type="submit" name="btn" id="subbtn1" value="Schedule">
+        <br/>
+        <br/>
+<div>
+    <h><b>FeedBackTo:</b></h>
+    <table border="1">
+        
+        <tr>
+            <b></b>
+            <td><b>UserID</b></td>
+                    <td><b>UserName</b></td>
+            <td></td>
+        </tr>
+                @foreach (var eachrow in Model.userdetailtolst)
+                {
+                    <tr>
+                        <td>@eachrow.UserID</td>
+                        <td>@eachrow.Name</td>
+                    </tr>
+                }
+    </table>
+</div>
+<h><b>FeedBackBy:</b></h>
+<div>
+    
+    <table border="1">
+        
+        <tr>
+            <b></b>
+            <td><b>UserID</b></td>
+                    <td><b>UserName</b></td>
+            <td></td>
+        </tr>
+                @foreach (var eachrow in Model.userdetailBylst)
+                {
+                    <tr>
+                        <td>@eachrow.UserID</td>
+                        <td>@eachrow.Name</td>
+                    </tr>
+                }
+    </table>
+    <br/>
+    <br/>
+    @if(Model.ToByList!=null)
+        {
+    <table border="1">
+        
+        <tr>
+            <td><b>FeedBackBY</b></td>
+            <td><b>FeedBackTo</b></td>
+        </tr>
+          @foreach(var eachrow in Model.ToByList)
+          {
+              <tr>
+                  <td>@eachrow.FeedbackBy.Name</td>
+                  <td>@eachrow.FeedbackTo.Name</td>
+              </tr>
+                    
+          }
+       
+    </table>
+        }
+    <br/>
+    <div>
+        <label asp-for="FSID" class="control-label"></label>
+                <select asp-for="FSID" asp-items="@(new SelectList(Model.feedbacksessionlist,"FSID","FSDescription"))"></select>
+    </div>
+    <br/>
+    <input type="Submit" name="btn" id="Sub2" value="Submit">
+    </div>
+    <br/>
+        <h1>@ViewBag.msg</h1>
+            
+    <br/>
+
+     @Html.Partial("_MyPartialView")
+    }
+</body>
+</html>

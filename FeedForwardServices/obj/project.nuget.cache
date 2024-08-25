@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "98M6/qN6ySfrYSL6VPZOT6boG6SnDu18KMRbbtZ+e2y2lZ9kTfhchiPodjtk/My/v50ufrGVwmGwlzT6q1KvcA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\SWATHI BATHULA\\source\\repos\\FeedForward\\FeedForwardServices\\FeedForwardServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

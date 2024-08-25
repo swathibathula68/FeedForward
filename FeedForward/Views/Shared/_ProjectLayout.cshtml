@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <img src="~/image/header image.png"/>
+        <br/>
+        <table>
+            <tr>
+                <td>@Html.ActionLink("Home","Home","UserManagment")|</td>
+                <td>@Html.ActionLink("About Us","Aboutus","UserManagment") |</td> 
+                <td>@Html.ActionLink("Contact Us","Contactus","UserManagment") |</td> 
+                <td>@Html.ActionLink("RegistrationPage","RegistrationPage","UserManagment") |</td>
+                <td>@Html.ActionLink("PasswordChangePage","PasswordChangePage","UserManagment") |</td>
+                <td>@Html.ActionLink("InsertQuestion","InsertQuestion","UserManagment") |</td>
+                <td>@Html.ActionLink("FeedBackSchedule","level","FeedBackScheduling") |</td>
+                <td>@Html.ActionLink("ScheduledFeedback","ScheduledFeedback","FeedBackScheduling") |</td>
+                <td>@Html.ActionLink("logout","logout","Logout") |</td>
+                
+            </tr>
+        </table>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <center>
+        <p>....Copy Right Reserved to ABC limited....</p>
+        </center>
+    </div>
+</body>
+</html>

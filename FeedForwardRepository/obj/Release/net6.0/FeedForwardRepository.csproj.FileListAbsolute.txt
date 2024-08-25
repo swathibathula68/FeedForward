@@ -1,0 +1,17 @@
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardRepository.deps.json
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardRepository.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardRepository.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardBusinessEntities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardUtilities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardBusinessEntities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\bin\Release\net6.0\FeedForwardUtilities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.csproj.AssemblyReference.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.AssemblyInfoInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.AssemblyInfo.cs
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.csproj.CoreCompileInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.csproj.CopyComplete
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\refint\FeedForwardRepository.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\FeedForwardRepository.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardRepository\obj\Release\net6.0\ref\FeedForwardRepository.dll

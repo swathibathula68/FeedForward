@@ -1,0 +1,15 @@
+﻿@model FeedForwardBusinessEntities.EntityModels.Quessearchviewmodel
+<div>
+    @using(Html.BeginForm())
+    {
+        <p>Search</p>
+        @Html.TextBoxFor(x=>Model.Search);
+        //<input type="submit" name="btn" id="search1" value="Search">
+        <button type="submit" name="btn" id="btn2" value="Search" formaction='@Url.Action("InsertQuestion","UserManagment")'>Search</button>
+        
+        <br/>
+        <br/>
+      
+       
+    }
+</div>

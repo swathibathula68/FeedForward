@@ -1,0 +1,38 @@
+﻿@model IEnumerable<FeedForwardBusinessEntities.EntityModels.FeedbackSchedulingDetail>
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ScheduledFeedback</title>
+</head>
+<body>
+    @using(Html.BeginForm())
+    {
+      <div>
+       <table border="1">
+           <td>ScheduleID</td><td>FeedBackBy</td><td>FeedBackTo</td><td>SessionID</td><td>Status</td>
+         @foreach(var eachrow in Model)
+         {
+            <tr>
+                <td>@eachrow.SchID</td><td>@eachrow.FeedBackBy</td><td>@eachrow.FeedBackTo</td><td>@eachrow.FSID</td><td>@eachrow.Fstatus</td>
+                <td>
+                     @Html.ActionLink("GiveFeedback","SubmitFeedBack","SubmittingFeedback",new{SchID=eachrow.SchID})
+                
+                </td>
+                </tr>
+         }
+       </table>
+      </div>
+    }
+    <br/>
+    <div>
+        @Html.Partial("_MyPartialView")
+    </div>
+</body>
+</html>

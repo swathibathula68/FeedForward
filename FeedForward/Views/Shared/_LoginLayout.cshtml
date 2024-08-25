@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <img src="~/image/header image.png" />
+        <br />
+        <table>
+            <tr>
+                <td>@Html.ActionLink("Home","Home","UserManagment")|</td>
+                <td>@Html.ActionLink("About Us","Aboutus","UserManagment") |</td>
+                <td>@Html.ActionLink("Contact Us","Contactus","UserManagment") |</td>
+                
+
+            </tr>
+        </table>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <center>
+            <p>....Copy Right Reserved to ABC limited....</p>
+        </center>
+    </div>
+</body>
+</html>

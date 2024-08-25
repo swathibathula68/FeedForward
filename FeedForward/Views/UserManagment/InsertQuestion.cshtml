@@ -1,0 +1,68 @@
+﻿@model FeedForwardBusinessEntities.EntityModels.Quessearchviewmodel
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertQuestion</title>
+</head>
+<body>
+    <div>
+        <partial name="_questionpartial" model="new FeedForwardBusinessEntities.EntityModels.Quessearchviewmodel()">
+    </div>
+   @using(Html.BeginForm())
+    {
+        //@Html.Partial("_questionpartial")
+        @*<div>
+            <partial name="_questionpartial" model="new FeedForwardBusinessEntities.EntityModels.Quessearchviewmodel()">
+        </div>*@
+         <div>
+            <label asp-for="LevelID" class="control-label"></label>
+            <select asp-for="LevelID" asp-items="@(new SelectList(Model.DesignationList,"LevelID","Designation"))"></select>
+          </div>
+          <br />
+          <br/>
+        <p>Question</p>
+        @Html.TextBoxFor(m=>m.Question)
+        <br />
+        <br />
+        <input type="submit" name="btn" id="btn1" value="Submit" />
+        <br/>
+        <br />
+        <div>
+            <table border="1">
+                <tr>
+                    <th>
+                        QID
+                    </th>
+                    <th>LevelID</th>
+                    <th>question</th>
+                    <th>CreatedDate</th>
+                    <th>CreatedBy</th>
+                </tr>
+                @foreach (var eachrow in Model.questionlist)
+                {
+                    <tr>
+                        <td>@eachrow.QID</td>
+                        <td>@eachrow.LevelID</td>
+                        <td>@eachrow.Question</td>
+                        <td>@eachrow.CreatedDate</td>
+                        <td>@eachrow.CreatedBy</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+        @ViewBag.Info
+        <br/>
+        <br/>
+        
+        @Html.Partial("_MyPartialView")
+    }
+</body>
+</html>

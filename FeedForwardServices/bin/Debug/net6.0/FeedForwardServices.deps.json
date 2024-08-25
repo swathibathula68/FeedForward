@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FeedForwardServices/1.0.0": {
+        "dependencies": {
+          "FeedForwardUtilities": "1.0.0"
+        },
+        "runtime": {
+          "FeedForwardServices.dll": {}
+        }
+      },
+      "FeedForwardUtilities/1.0.0": {
+        "runtime": {
+          "FeedForwardUtilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FeedForwardServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FeedForwardUtilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

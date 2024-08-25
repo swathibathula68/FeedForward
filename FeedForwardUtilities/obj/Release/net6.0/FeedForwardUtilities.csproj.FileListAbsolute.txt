@@ -1,0 +1,12 @@
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\bin\Release\net6.0\FeedForwardUtilities.deps.json
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\bin\Release\net6.0\FeedForwardUtilities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\bin\Release\net6.0\FeedForwardUtilities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.csproj.AssemblyReference.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.AssemblyInfoInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.AssemblyInfo.cs
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.csproj.CoreCompileInputs.cache
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\refint\FeedForwardUtilities.dll
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\FeedForwardUtilities.pdb
+C:\Users\SWATHI BATHULA\source\repos\FeedForward\FeedForwardUtilities\obj\Release\net6.0\ref\FeedForwardUtilities.dll
