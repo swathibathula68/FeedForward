@@ -1,7 +1,9 @@
 ﻿@model FeedForwardBusinessEntities.EntityModels.UserLoginViewModel
 @{
     Layout = null;
-    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+   
+
 }
 
 <!DOCTYPE html>
@@ -16,6 +18,9 @@
     
         <center>
             <p>"Welcome"</p>
+            <br/>
+            @Html.ActionLink("Return to Login Page", "UserLogin", "UserManagment")
+
 
         </center>
   <br />

@@ -1,7 +1,7 @@
 ﻿
 @{
     Layout = null;
-    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -16,7 +16,11 @@
     <center>
         <p>HI</p>
         <br />
+        
         <p>"This is About us page"</p>
+        <br/>
+        <p>@Html.ActionLink("Return to Login Page", "UserLogin")</p>
+
     </center>
     <br/>
     @Html.Partial("_MyPartialView")

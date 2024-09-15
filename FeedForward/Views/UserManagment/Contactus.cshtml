@@ -1,7 +1,7 @@
 ﻿
 @{
     Layout = null;
-    Layout = "~/Views/Shared/_ProjectLayout.cshtml";
+     Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -18,6 +18,8 @@
       <p>"please use this below number to contact us"</p>
       <br />
       <p>7997677157</p>
+
+        @Html.ActionLink("Return to Login Page", "UserLogin")
   </center>
   <br/>
     @Html.Partial("_MyPartialView")
