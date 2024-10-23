@@ -15,13 +15,16 @@ namespace FeedForwardBusinessEntities.EntityModels
         public string UserID { get; set; }
         public string Password { get; set; }
         public string? Name { get; set; }
+        [Required(ErrorMessage = "Roll ID is mandatory")]
         public int RoleID { get; set; }
-        [RegularExpression(@"a-zA-Z]+",ErrorMessage ="Invalid EmailID")]
+        [RegularExpression(@"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", ErrorMessage ="Invalid EmailID")]
         public string? Email { get; set; }
         public string? Mobile { get; set; }
         public string? EmpID { get; set; }
         public int DesignationID { get; set; }
+        [Required(ErrorMessage = "Please select Role")]
         public List<RoleDetail> RoleList { get; set; }
+        [Required(ErrorMessage = "Please Select Designation")]
         public List<DesignationLevel> DesignationList { get; set; }
 
     }
